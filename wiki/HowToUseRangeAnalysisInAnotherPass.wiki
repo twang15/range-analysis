@@ -1,5 +1,7 @@
 #summary How to use Range Analysis in another LLVM pass
 
+Note: this tutorial is suited for LLVM 3.0. Some APIs may have changed since then.
+
 = Writing a Client Pass =
 
 In order to use our range analysis, you can write a LLVM pass that calls it. There is [http://llvm.org/docs/WritingAnLLVMPass.html vast documentation] about how to write LLVM passes in the web. The program below, which is self-contained, is an example of such a pass.
