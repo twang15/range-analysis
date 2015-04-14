@@ -1,6 +1,6 @@
 #summary How to use Range Analysis in another LLVM pass
 
-Note: this tutorial is suited for LLVM 3.0. Some APIs may have changed since then.
+Note: this tutorial is suited for LLVM 3.0. Some LLVM APIs and includes may have changed since then.
 
 = Writing a Client Pass =
 
